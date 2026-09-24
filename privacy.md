@@ -1,6 +1,6 @@
 # Day Chats — Privacy Policy
 
-**Effective date:** 11 September 2026
+**Effective date:** 24 September 2026
 **Developer:** Oscar Abrego (individual developer, "we", "us")
 **Applies to:** the Day Chats iOS application ("the App"), including beta versions distributed through TestFlight
 
@@ -10,7 +10,7 @@ Day Chats is a personal diary that stores everything on your device. The App has
 
 ## 2. Information we collect
 
-We collect **no** personal information. The App makes **no** network connections on its own; the only connections it ever makes are the ones described in section 7, which happen only if you register an AI provider key and only when you ask a question or analyze a calendar. Specifically, the App does not collect or transmit to us:
+We collect **no** personal information. The App makes **no** network connections on its own; the only connections it ever makes are the ones described in section 7, which happen only if you register an AI provider key and only when you ask a question or analyze a calendar or list. Specifically, the App does not collect or transmit to us:
 
 - your diary entries, photos, or captions;
 - your name or reference name;
@@ -24,8 +24,8 @@ The App stores the following data locally, in the App's private container on you
 - **Diary entries**: the text you write, the day each entry belongs to, and the time it was written.
 - **Photos you add**: a copy of each photo you choose, kept inside the App. Adding a photo does not give the App access to your photo library.
 - **Photo descriptions**: short machine-generated tags for photos you add, produced on your device by Apple's Vision framework. They are used only in your exports and are never sent anywhere.
-- **Preferences**: the name you chose to be referenced by, the selected theme, and the Face ID and lock-delay settings.
-- **AI answers and calendars** (only if you use the optional AI features, section 7): the answers to questions you asked, and the calendars you set up, meaning the question, its answer categories, and each day's answer with a short reason. They stay on your device and are included in backups you make.
+- **Preferences**: the name you chose to be referenced by, the selected theme, the Face ID and lock-delay settings, the app language, and which AI models you chose (section 7).
+- **AI answers, calendars, and lists** (only if you use the optional AI features, section 7): the answers to questions you asked; the calendars you set up, meaning the question, its answer categories, and each day's answer with a short reason; and the lists you set up, meaning the description, the items the App collected from your days with a short detail and reason, and anything you changed about them. They stay on your device and are included in backups you make.
 
 This data is protected with iOS data protection while your device is locked. It is included in your device's iCloud or computer backups, which are governed by Apple's privacy policy, not by ours.
 
@@ -47,12 +47,12 @@ The App can render your entries as a text file or copy them to the clipboard. Th
 
 ## 7. Optional AI features and third-party providers
 
-The App can answer questions about your diary, and sort your days onto a calendar by a question you choose, using an AI provider such as OpenAI. This is off until you register your own API key for that provider in Settings.
+The App can answer questions about your diary, sort your days onto a calendar by a question you choose, and collect items from your days into a list by a description you write, using an AI provider you choose, currently OpenAI or Anthropic. This is off until you register your own API key for that provider in Settings.
 
-- **What is sent:** when you ask a question, the App sends the provider your question and the diary entries in the date range you selected (text, photo captions, and the on-device photo tags). When you analyze a calendar, it sends that calendar's question and the entries of the days being analyzed, in small batches; later updates send only days that are new or changed. When you type a question to set up a calendar, only that sentence is sent, so the provider can suggest answer categories. Photos themselves are never sent. Nothing is sent at any other time.
+- **What is sent:** when you ask a question, the App sends the provider your question and the diary entries in the date range you selected (text, photo captions, and the on-device photo tags). When you analyze a calendar or a list, it sends that calendar's question or that list's description and the entries of the days being analyzed, in small batches; later updates send only days that are new or changed. When you type a question or description to set up a calendar or list, only that sentence is sent, so the provider can suggest the setup. When you save a key, the App asks the provider for the list of models available to your account, and again when you tap Refresh models. Photos themselves are never sent. Nothing is sent at any other time.
 - **Who receives it:** only the provider you chose, under that provider's own terms and privacy policy, using your key and your account with them. We are not a party to that transfer and receive nothing.
 - **Your key:** stored in the iOS Keychain on your device only. It is never included in exports or backups, and it is not sent anywhere except to that provider to authenticate your requests.
-- **Answers and calendars:** stored on your device with your entries; you can delete them at any time.
+- **Answers, calendars, and lists:** stored on your device with your entries; you can delete them at any time.
 
 Apart from this, the App uses no third-party software development kits, advertising, analytics, or cloud services. We share no information with anyone.
 
