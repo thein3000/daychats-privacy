@@ -265,8 +265,8 @@ pre { margin: 1.25rem 0 0; white-space: pre-wrap; overflow-wrap: anywhere; font:
     <div class="hero-copy">
       <p class="eyebrow">A private diary for iPhone, one chat per day</p>
       <h1 id="hero-title">I write things down so I stop losing them.</h1>
-      <p>Most of what I think in a day is gone by the next one. Not the big things, the small ones: what I noticed, what I meant to do, what a friend said. Day Chats is where I put them, a line at a time, as they happen.</p>
-      <p>It stays on my phone. I built it that way, and I built it for myself first. This page is me explaining why, in case it turns out to be useful to you too.</p>
+      <p>Most of what I think in a day is gone by the next one. Not the big things, the small ones: what I noticed, what I meant to do, what a friend said. Day Chats is where I put them: a line during a break, a photo of whatever I’m looking at, a few lines before sleep or the next morning about the day before.</p>
+      <p>It stays on my phone. I built it that way, and I built it for myself first, though I keep it working for other people too. This page is me explaining why, in case you’d find it useful.</p>
       <a class="cta" href="https://testflight.apple.com/join/6FdNJpCJ" aria-describedby="beta-availability">Join the beta on TestFlight <span aria-hidden="true">↗</span></a>
       <p class="beta-note">Currently available only for iOS · TestFlight beta</p>
     </div>
@@ -290,10 +290,11 @@ pre { margin: 1.25rem 0 0; white-space: pre-wrap; overflow-wrap: anywhere; font:
       <p class="eyebrow">Why I made it</p>
       <h2 id="why-title">A fight against forgetting.</h2>
       <p>I think by writing. If I don’t write something down, I have quietly decided it’s fine to lose that part of the day, and most days that is what happens. I wanted a place where the bar for writing was as low as sending a text: open the app, type the thing, done. So every day is a chat, and I talk to myself in it.</p>
+      <p>I don’t write all day. It’s a line in a break, a photo of whatever is in front of me, or a few lines that night or the next morning, filed under the day they belong to. Some days get twenty entries and some get one.</p>
       <blockquote class="pull">If I don’t write it down, I’m saying it’s okay to lose that part of myself.</blockquote>
       <p>It is uncomfortable at first. A diary that is really you talking to yourself has your good days and your petty ones in it. But the alternative is losing all of it, and after a few months the thing I feel most is relief: the days are there, in my own words, at the time I wrote them.</p>
       <p>I will be honest about the part that is still hard. Some days it feels like a chore. I keep going because of what the entries add up to, and the rest of this page is about that.</p>
-      <p class="aside">The app began as a tool for me and my wife, and that is still who it is built for. Everything below follows from that.</p>
+      <p class="aside">The app began as a tool for me and my wife, and it still leans that way. It isn’t built for maximum accessibility or magic, and that has tradeoffs I’m working on. What I can say is that feedback changes it, usually quickly.</p>
     </div>
   </section>
 
@@ -405,7 +406,7 @@ you let on.</span></code></pre></div><figcaption>A question and the start of an 
 
   <section class="themes" id="themes" aria-labelledby="themes-title">
     <div class="themes-grid">
-      <div class="section-intro" data-reveal><p class="eyebrow">Four ways to settle in</p><h2 id="themes-title">Same diary. Your kind of quiet.</h2><p>Warm paper, a little color in the light or in the dark, or green on black. I admit I mostly live in Paper, but I don’t regret the others. Try one on the example here.</p></div>
+      <div class="section-intro" data-reveal><p class="eyebrow">Four themes</p><h2 id="themes-title">The whole app follows the theme.</h2><p>Every screen changes with it: the chats, the calendars, the lists, the settings. Paper is the default. Confetti is the one I like most, and Dark Confetti is the same idea after dark. Terminal is green on black because I couldn’t not. Try one on the example here, and I add others when someone asks.</p></div>
       <figure class="day-preview theme paper" id="theme-preview" data-reveal>
         <div class="chat">
           <div class="chat-heading"><span aria-hidden="true">‹</span><strong>March 14 — Saturday</strong><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M7 9H4v12h16V9h-3M12 15V2m-4 4 4-4 4 4"/></svg></div>
@@ -420,7 +421,7 @@ you let on.</span></code></pre></div><figcaption>A question and the start of an 
       </figure>
       <ul class="theme-list" aria-label="Pick a theme to preview" data-reveal="group">
         <li class="theme paper"><button class="theme-pick" type="button" data-theme="paper" data-caption="Paper, the default theme." aria-pressed="true"><span class="theme-sample" aria-hidden="true"><span class="mini-bubble">A little of today.</span><span class="mini-bubble">Kept for me.</span><span class="theme-dot"></span></span><span class="theme-name">Paper <small>· default</small></span></button></li>
-        <li class="theme confetti"><button class="theme-pick" type="button" data-theme="confetti" data-caption="Confetti." aria-pressed="false"><span class="theme-sample" aria-hidden="true"><span class="mini-bubble">A little of today.</span><span class="mini-bubble">Kept for me.</span><span class="theme-dot"></span></span><span class="theme-name">Confetti</span></button></li>
+        <li class="theme confetti"><button class="theme-pick" type="button" data-theme="confetti" data-caption="Confetti, the one I like most." aria-pressed="false"><span class="theme-sample" aria-hidden="true"><span class="mini-bubble">A little of today.</span><span class="mini-bubble">Kept for me.</span><span class="theme-dot"></span></span><span class="theme-name">Confetti <small>· my pick</small></span></button></li>
         <li class="theme dark-confetti"><button class="theme-pick" type="button" data-theme="dark-confetti" data-caption="Dark Confetti, the same colors after dark." aria-pressed="false"><span class="theme-sample" aria-hidden="true"><span class="mini-bubble">A little of today.</span><span class="mini-bubble">Kept for me.</span><span class="theme-dot"></span></span><span class="theme-name">Dark Confetti <small>· new</small></span></button></li>
         <li class="theme terminal"><button class="theme-pick" type="button" data-theme="terminal" data-caption="Terminal." aria-pressed="false"><span class="theme-sample" aria-hidden="true"><span class="mini-bubble">A little of today.</span><span class="mini-bubble">Kept for me.</span><span class="theme-dot"></span></span><span class="theme-name">Terminal</span></button></li>
       </ul>
@@ -437,7 +438,7 @@ you let on.</span></code></pre></div><figcaption>A question and the start of an 
   </section>
 
   <section class="beta" id="beta" aria-labelledby="beta-title" data-reveal="group">
-    <div class="beta-copy"><p class="eyebrow">Where it is</p><h2 id="beta-title">Mostly built for me. Maybe for you.</h2><p class="first">I genuinely don’t know whether anyone else wants a diary that works like this. I made it because I wanted it, and I would like to find out. If you try it, tell me what you expected and what you got; that is the most useful thing you can send.</p><ul><li>Currently available only for iOS, in English and Spanish.</li><li>There’s no sync between devices; backups move your diary by hand.</li><li>Photos aren’t in the Markdown export yet, only in backups.</li></ul></div>
+    <div class="beta-copy"><p class="eyebrow">Where it is</p><h2 id="beta-title">Built for me. Useful to you, I hope.</h2><p class="first">I made it because I wanted it, and I’d like it to be useful to other people too. It won’t be for everyone; it is deliberately not built for maximum accessibility or magic, and I’m still working through what that costs. Feedback changes it, usually within the week. If you try it, tell me what you expected and what you got, and suggest whatever you like; that is the most useful thing you can send.</p><ul><li>Currently available only for iOS, in English and Spanish.</li><li>There’s no sync between devices; backups move your diary by hand.</li><li>Photos aren’t in the Markdown export yet, only in backups.</li></ul></div>
     <div class="beta-action"><a class="cta" href="https://testflight.apple.com/join/6FdNJpCJ" aria-describedby="beta-availability">Join the beta on TestFlight <span aria-hidden="true">↗</span></a><p class="beta-note" id="beta-availability">Opens in TestFlight. Free while in beta.</p></div>
   </section>
 </main>
